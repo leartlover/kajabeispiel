@@ -1,5 +1,7 @@
+def greet_names(names):
+    for name in names:
+        print(f"Hello {name}!")
 
-
-print("Hello world!")
-print("Hello Tim!")
-print("Hello Sam!")
+# Beispielaufruf
+names = ["Kaja", "Sam", "Tim"]
+greet_names(names)
